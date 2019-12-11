@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	margin: 20px;
+	margin: 5%;
 }
 
 
@@ -80,6 +80,13 @@ nav a {
 
 .logo {
 	margin: 20px 20px -10px 20px;
+	align-self: right;
+}
+
+.banner div {
+	box-sizing: border-box;
+	display: inline-block;
+
 }
 
 .mainheader {
@@ -88,11 +95,20 @@ nav a {
 }
 
 .getstarted {
+	box-sizing: border-box;
 	border: solid 1px black;
+	margin: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
 }
 
 .headerimage {
+	box-sizing: border-box;
+	display: inline-block;
 	margin: 10px;
+
 }
 
 header {
@@ -101,21 +117,38 @@ header {
 	width: 10%;
 }
 
-.topcontent .left {
+.top-header h2 {
 	display: inline-block;
-	width: 48%;
-	margin-right: 50%;
-	border: solid black 2px;
-	
+	width: 45%;
 }
 
-.topcontent .right {
+.top-content p {
 	display: inline-block;
-	width: 48%;
-	margin-left: 50%;
-	border: solid black 2px;
+	width: 45%;
+}
+
+.middle-img {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.bottom-header h2 {
+	display: inline-block;
+	width: 30%;
+	margin: 2% 0% 0% 0%;
+}
+
+.bottom-content p {
+	display: inline-block;
+	width: 30%;
+	margin: 2% 0% 2% 0%;
 }
 
 .breakline {
-	margin: 5% 2% 5% 2%;
+	margin: 5% 0% 5% 0%;
+}
+
+.copyright {
+	margin: 3%;
+	text-align: center;
 }
