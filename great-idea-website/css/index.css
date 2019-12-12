@@ -81,6 +81,7 @@ nav a {
 .logo {
 	margin: 20px 20px -10px 20px;
 	align-self: right;
+	position: relative; left: 50px;
 }
 
 .banner div {
@@ -89,46 +90,33 @@ nav a {
 
 }
 
-.header {
-	border: 1px solid black;
-	width: 49%;
-	text-align: center;
-	align-content: center;
+.header div {
+	display: inline-block;
+	width: 30%;
+
 }
 
 .headerimage {
-	border: 1px solid black;
-	width: 49%;
-	text-align: right;
+	text-align: center;
+	position: relative; left: -50px; 
+	margin-top: 4%;
+	margin-bottom: 4%;
+
 }
 
 .mainheader {
-	display: inline-block;
 	font-size: 65px;
 	font-family: 'Bangers';
-	border: 1px solid black;
+	text-align: center;
+	position: relative; top: -100px; left: 120px;
 }
 
 .getstarted {
 	box-sizing: border-box;
 	border: solid 1px black;
-	margin: 20px;
-	padding-top: 5px;
-	width: 175px;
-	height: 30px;	
-}
-
-.headerimage {
-	box-sizing: border-box;
-	display: inline-block;
-	margin: 10px;
-
-}
-
-header {
-	box-sizing: border-box;
-	display: inline-block;
-	width: 10%;
+	padding: 5px 5px 5px 5px;
+	position: relative; top: -50px;	left: -140px;
+	text-align: center;
 }
 
 .top-header h2 {
